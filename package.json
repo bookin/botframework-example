@@ -16,5 +16,9 @@
     "url": "https://git.heroku.com/botframework-nodejs.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "npm": "3.10.3",
+    "node": "6.3.0"
+  }
 }
