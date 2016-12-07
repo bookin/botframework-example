@@ -1,0 +1,19 @@
+{
+  "name": "botframework-skype",
+  "version": "0.0.1",
+  "description": "Test ms botframework - skype",
+  "main": "index.js",
+  "dependencies": {
+    "broscript-client": "^0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/botframework-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
