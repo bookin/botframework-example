@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "botbuilder": "^3.4.4",
-    "broscript-client": "^0.0.1",
+    "broscript": "*",
     "restify": "^4.3.0"
   },
   "devDependencies": {},
