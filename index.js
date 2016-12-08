@@ -13,7 +13,8 @@ var connector = new builder.ChatConnector({
     appPassword: "bi9HvaVx0TvK5uYFpwoHpWN"
 });
 var bot = new builder.UniversalBot(connector);
-server.post('/api/messages', connector.listen());
+// server.post('/api/messages', connector.listen());
+server.post('/', connector.listen());
 
 
 bot.dialog('/', function (session) {
