@@ -1,4 +1,16 @@
 var express = require('express');
+var builder = require('botbuilder');
+
+// Create bot and add dialogs
+var connector = new builder.ChatConnector({
+    appId: "3b34df50-d516-4b7c-ab00-cf08afe88d0a",
+    appPassword: "bi9HvaVx0TvK5uYFpwoHpWN"
+});
+var bot = new builder.UniversalBot(connector);
+bot.dialog('/', function (session) {
+    session.send('Hello World');
+});
+
 var app = express();
 
 app.get('/', function (req, res) {
